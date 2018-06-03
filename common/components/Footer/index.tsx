@@ -58,9 +58,7 @@ export default class Footer extends React.PureComponent<Props, State> {
                   {link.text}
                 </NewTabLink>
               ))}
-              <NewTabLink href="mailto:press@mycrypto.com">
-                {translateRaw('FOOTER_PRESS')}
-              </NewTabLink>
+              <NewTabLink href="mailto:info@egem.io">{translateRaw('FOOTER_PRESS')}</NewTabLink>
             </div>
           </div>
 
@@ -71,17 +69,17 @@ export default class Footer extends React.PureComponent<Props, State> {
                 src={logo}
                 height="55px"
                 width="auto"
-                alt="MyCrypto logo"
+                alt="MyEgemWallet logo"
               />
             </NewTabLink>
 
             <div className="Footer-about-links">
-              <NewTabLink href="https://mycrypto.com">MyCrypto.com</NewTabLink>
+              <NewTabLink href="https://myegemwallet.com">MyEgemWallet.com</NewTabLink>
               <NewTabLink href={knowledgeBaseURL}>{translateRaw('FOOTER_SUPPORT')}</NewTabLink>
-              <NewTabLink href="https://about.mycrypto.com">
+              <NewTabLink href="https://about.myegemwallet.com">
                 {translateRaw('FOOTER_TEAM')}
               </NewTabLink>
-              <NewTabLink href="https://about.mycrypto.com/privacy/">
+              <NewTabLink href="https://about.myegemwallet.com/privacy/">
                 {translateRaw('FOOTER_PRIVACY_POLICY')}
               </NewTabLink>
             </div>
@@ -90,7 +88,7 @@ export default class Footer extends React.PureComponent<Props, State> {
 
             <div className="Footer-about-legal">
               <div className="Footer-about-legal-text">
-                © {new Date().getFullYear()} MyCrypto, Inc.
+                © {new Date().getFullYear()} MyEgem Wallet
               </div>
               <div className="Footer-about-legal-text">
                 <a onClick={this.toggleModal}>{translateRaw('DISCLAIMER')}</a>

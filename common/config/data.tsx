@@ -26,8 +26,8 @@ export const APP_ALPHA_EXPIRATION = 1532476800000;
 export const ANNOUNCEMENT_TYPE = '';
 export const ANNOUNCEMENT_MESSAGE = (
   <React.Fragment>
-    Welcome to the new MyCrypto. We hope you like it! If it's urgent and you need the old site, you
-    can still use <NewTabLink href="https://legacy.mycrypto.com">MyCrypto Legacy</NewTabLink>
+    Welcome to the new MyEgemWallet. We hope you like it! If it's urgent and you need the old site,
+    you can still use <NewTabLink href="https://legacy.mycrypto.com">MyCrypto Legacy</NewTabLink>
   </React.Fragment>
 );
 

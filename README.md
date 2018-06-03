@@ -1,4 +1,4 @@
-# MyCrypto Web & Desktop Apps
+# MyEgemWallet Web & Desktop Apps
 
 [![Coverage Status](https://coveralls.io/repos/github/MyCryptoHQ/MyCrypto/badge.svg?branch=develop)](https://coveralls.io/github/MyCryptoHQ/MyCrypto?branch=develop)
 

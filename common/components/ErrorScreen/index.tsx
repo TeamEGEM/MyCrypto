@@ -4,7 +4,7 @@ import './index.scss';
 
 const SUBJECT = 'Error!';
 const DESCRIPTION =
-  'I encountered an error while using MyCrypto. Here are the steps to re-create the issue:\n\nThe full error message:';
+  'I encountered an error while using MyEgemWallet. Here are the steps to re-create the issue:\n\nThe full error message:';
 
 interface Props {
   error: Error;
@@ -21,9 +21,9 @@ const ErrorScreen: React.SFC<Props> = ({ error }) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={`mailto:support@mycrypto.com?Subject=${SUBJECT}&body=${DESCRIPTION}`}
+            href={`mailto:info@egem.io?Subject=${SUBJECT}&body=${DESCRIPTION}`}
           >
-            support@mycrypto.com
+            info@egem.io
           </a>{' '}
           if a refresh doesn't fix it (or click it anyway to open a ticket 😊). You can also submit
           an issue on our{' '}

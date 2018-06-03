@@ -80,7 +80,7 @@ class TrezorDecryptClass extends PureComponent<Props, State> {
 
         <div className="TrezorDecrypt-help">
           <NewTabLink href="https://support.mycrypto.com/accessing-your-wallet/how-to-use-your-trezor-with-mycrypto.html">
-            How to use TREZOR with MyCrypto
+            How to use TREZOR with MyEgemWallet
           </NewTabLink>
         </div>
 

@@ -28,10 +28,10 @@ export default class AppAlphaNotice extends React.PureComponent<{}, State> {
     return (
       <div className={`AppAlpha ${isFading}`}>
         <div className="AppAlpha-content">
-          <h2>Welcome to the MyCrypto Desktop App Alpha</h2>
+          <h2>Welcome to the MyEgemWallet Desktop App Alpha</h2>
           <p>
-            Thank you for testing out the new MyCrypto desktop app. This is an early release to be
-            tested by the community before a full launch. We recommend continuing to use the
+            Thank you for testing out the newMyEgemWallet desktop app. This is an early release to
+            be tested by the community before a full launch. We recommend continuing to use the
             production site for large or otherwise important transactions.
           </p>
           <p>

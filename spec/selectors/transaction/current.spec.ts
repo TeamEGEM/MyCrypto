@@ -47,7 +47,7 @@ describe('current selector', () => {
 
   it('should get message to the receiver', () => {
     expect(getCurrentToAddressMessage(state)).toEqual({
-      msg: 'Thank you for donating to MyCrypto. TO THE MOON!'
+      msg: 'Thank you for donating to MyEgemWallet. TO THE MOON!'
     });
   });
 
